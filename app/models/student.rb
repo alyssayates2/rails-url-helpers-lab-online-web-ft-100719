@@ -9,5 +9,5 @@ class Student < ActiveRecord::Base
     else
       "active"
     end
-  end
+  
 end
