@@ -14,7 +14,7 @@ class StudentsController < ApplicationController
     @student.active = !@student.active
     @student.save
 
-    redirect '/index'
+    redirect '/'
   end
 
 
