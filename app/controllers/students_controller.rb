@@ -1,7 +1,9 @@
 class StudentsController < ApplicationController
   before_action :set_student, only: :show
 
-  student
+  def student
+
+  end
 
   def show
   end
