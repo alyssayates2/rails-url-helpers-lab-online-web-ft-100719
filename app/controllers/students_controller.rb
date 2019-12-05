@@ -6,11 +6,7 @@ class StudentsController < ApplicationController
   end
 
   def show
-    if params[:status] == "active"
-      @students = Student.active
-    else
-      @students = Student.inactive
-    end
+  
   end
 
   private
