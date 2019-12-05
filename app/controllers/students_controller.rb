@@ -3,7 +3,7 @@ class StudentsController < ApplicationController
 
   def index
     @students = Student.all
-    erb :'./students/index.html'
+    erb :'./views/students/index.html'
   end
 
   def show
