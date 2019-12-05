@@ -12,7 +12,6 @@ class StudentsController < ApplicationController
 
   def activate
     @student = Student.find(params[:id])
-    binding.pry
   end
 
 
