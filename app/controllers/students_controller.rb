@@ -3,11 +3,6 @@ class StudentsController < ApplicationController
 
   def index
     @students = Student.all
-    if params[:status] == "active"
-      @students = Student.active
-    else
-      @students = Student.inactive
-    end
   end
 
   def show
