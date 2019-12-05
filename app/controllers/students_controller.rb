@@ -2,8 +2,6 @@ class StudentsController < ApplicationController
   before_action :set_student, only: :show
 
   def index
-    @students = Student.all
-    erb :'./views/students/index.html'
   end
 
   def show
