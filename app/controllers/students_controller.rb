@@ -10,7 +10,6 @@ class StudentsController < ApplicationController
   end
 
   def activate
-    byebug
     @student = Student.find(params[:id])
     @student.active = !@student.active
     @student.save
