@@ -6,7 +6,7 @@ class StudentsController < ApplicationController
   end
 
   def show
-    binding.pry
+    byebug
     @student = Student.find(params[:id])
   end
 
