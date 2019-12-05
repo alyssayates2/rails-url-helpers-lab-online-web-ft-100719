@@ -9,10 +9,6 @@ class StudentsController < ApplicationController
 
   end
 
-  def status
-
-  end 
-
   private
 
     def set_student
