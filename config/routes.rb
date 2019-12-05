@@ -4,4 +4,5 @@ Rails.application.routes.draw do
 
   get '/students/:status', to: 'students#index', foo: 'bar'
 
+  get '/students/:id/activate', to: 'students#activate'
 end
